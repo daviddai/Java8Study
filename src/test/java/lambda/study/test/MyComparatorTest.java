@@ -7,7 +7,9 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class MyComparatorTest {
 
@@ -108,4 +110,45 @@ public class MyComparatorTest {
                 sortedPersons, myComparator.sortPersonsByAscendingAgeThenAscendingName(persons));
     }
 
+    @Test
+    public void testGroupPersonsByAge() {
+        List<Person> persons = Arrays.asList(
+                new Person("David", 30),    // 0
+                new Person("John", 30),     // 1
+                new Person("Janet", 35),    // 2
+                new Person("Steve", 40),    // 3
+                new Person("Peter", 18),    // 4
+                new Person("Jacky", 18)     // 5
+        );
+
+        Map<Integer, List<Person>> groupedPersons = new HashMap<>();
+        groupedPersons.put(18, Arrays.asList(persons.get(4), persons.get(5)));
+        groupedPersons.put(30, Arrays.asList(persons.get(0), persons.get(1)));
+        groupedPersons.put(35, Arrays.asList(persons.get(2)));
+        groupedPersons.put(40, Arrays.asList(persons.get(3)));
+
+        Assert.assertEquals("The grouped map is expected to be " + groupedPersons,
+                groupedPersons, myComparator.groupPersonsByAge(persons));
+    }
+
+    @Test
+    public void testGroupPersonNamesByAge() {
+        List<Person> persons = Arrays.asList(
+                new Person("David", 30),    // 0
+                new Person("John", 30),     // 1
+                new Person("Janet", 35),    // 2
+                new Person("Steve", 40),    // 3
+                new Person("Peter", 18),    // 4
+                new Person("Jacky", 18)     // 5
+        );
+
+        Map<Integer, List<String>> groupedPersons = new HashMap<>();
+        groupedPersons.put(18, Arrays.asList(persons.get(4).getName(), persons.get(5).getName()));
+        groupedPersons.put(30, Arrays.asList(persons.get(0).getName(), persons.get(1).getName()));
+        groupedPersons.put(35, Arrays.asList(persons.get(2).getName()));
+        groupedPersons.put(40, Arrays.asList(persons.get(3).getName()));
+
+        Assert.assertEquals("The grouped map is expected to be " + groupedPersons,
+                groupedPersons, myComparator.groupPersonNamesByAge(persons));
+    }
 }

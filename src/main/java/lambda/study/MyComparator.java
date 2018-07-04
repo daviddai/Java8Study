@@ -3,6 +3,7 @@ package lambda.study;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 public class MyComparator {
@@ -50,6 +51,25 @@ public class MyComparator {
             return Collections.emptyList();
         }
 
+    }
+
+    public Map<Integer, List<Person>> groupPersonsByAge(List<Person> persons) {
+        if (persons != null) {
+            return persons.stream().collect(Collectors.groupingBy(Person::getAge));
+        } else {
+            return Collections.emptyMap();
+        }
+    }
+
+    public Map<Integer, List<String>> groupPersonNamesByAge(List<Person> persons) {
+        if (persons != null) {
+            return persons.stream()
+                    .collect(Collectors
+                            .groupingBy(Person::getAge,
+                                        Collectors.mapping(Person::getName, Collectors.toList())));
+        } else {
+            return Collections.emptyMap();
+        }
     }
 
 }
