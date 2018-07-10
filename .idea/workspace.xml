@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41275f22-fb93-4575-9aa4-a046cf563e14" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/lambda/study/Asset.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/lambda/study/Assets.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/lambda/study/test/AssetsTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/study/MyComparator.java" afterPath="$PROJECT_DIR$/src/main/java/lambda/study/MyComparator.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lambda/study/test/MyComparatorTest.java" afterPath="$PROJECT_DIR$/src/test/java/lambda/study/test/MyComparatorTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,16 +17,43 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.40905482">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="MyComparator.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/lambda/study/MyComparator.java">
+          <file leaf-file-name="Asset.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/lambda/study/Asset.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1050">
-                  <caret line="70" column="42" lean-forward="true" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+                <state relative-caret-position="285">
+                  <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#301#302#0" expanded="true" />
+                    <element signature="e#328#329#0" expanded="true" />
+                    <element signature="e#357#358#0" expanded="true" />
+                    <element signature="e#385#386#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Assets.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/lambda/study/Assets.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="465">
+                  <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#184#185#0" expanded="true" />
+                    <element signature="e#220#221#0" expanded="true" />
+                    <element signature="e#256#257#0" expanded="true" />
+                    <element signature="e#289#290#0" expanded="true" />
+                    <element signature="e#327#328#0" expanded="true" />
+                    <element signature="e#356#357#0" expanded="true" />
+                    <element signature="e#399#400#0" expanded="true" />
+                    <element signature="e#487#488#0" expanded="true" />
+                    <element signature="e#531#532#0" expanded="true" />
+                    <element signature="e#620#621#0" expanded="true" />
+                    <element signature="e#659#660#0" expanded="true" />
+                    <element signature="e#712#713#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -34,16 +62,14 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="MyComparatorTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/lambda/study/test/MyComparatorTest.java">
+        <leaf>
+          <file leaf-file-name="AssetsTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/lambda/study/test/AssetsTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="755">
-                  <caret line="123" column="68" lean-forward="true" selection-start-line="123" selection-start-column="68" selection-end-line="123" selection-end-column="68" />
+                <state relative-caret-position="360">
+                  <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#369#370#0" expanded="true" />
-                    <element signature="e#418#419#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -89,6 +115,9 @@
         <option value="$PROJECT_DIR$/src/main/java/lambda/study/Person.java" />
         <option value="$PROJECT_DIR$/src/test/java/lambda/study/test/MyComparatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/lambda/study/MyComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lambda/study/Asset.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lambda/study/Assets.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lambda/study/test/AssetsTest.java" />
       </list>
     </option>
   </component>
@@ -122,13 +151,15 @@
     </treeState>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-643" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
     <option name="y" value="-1418" />
-    <option name="width" value="1440" />
-    <option name="height" value="874" />
+    <option name="width" value="2560" />
+    <option name="height" value="1418" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -144,6 +175,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,10 +234,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyComparatorTest.testGroupPersonNamesByAge">
+  <component name="RunManager" selected="JUnit.AssetsTest.testGetTotalAssetValue">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -252,7 +283,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="MyComparatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AssetsTest.testGetTotalAssetBondValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="lambda.study.test.*" />
@@ -263,9 +294,59 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="lambda.study.test" />
-      <option name="MAIN_CLASS_NAME" value="lambda.study.test.MyComparatorTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="lambda.study.test.AssetsTest" />
+      <option name="METHOD_NAME" value="testGetTotalAssetBondValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="AssetsTest.testGetTotalAssetStockValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="lambda.study.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Java8Study" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="lambda.study.test" />
+      <option name="MAIN_CLASS_NAME" value="lambda.study.test.AssetsTest" />
+      <option name="METHOD_NAME" value="testGetTotalAssetStockValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="AssetsTest.testGetTotalAssetValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="lambda.study.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Java8Study" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="lambda.study.test" />
+      <option name="MAIN_CLASS_NAME" value="lambda.study.test.AssetsTest" />
+      <option name="METHOD_NAME" value="testGetTotalAssetValue" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -315,56 +396,6 @@
       <option name="PACKAGE_NAME" value="lambda.study.test" />
       <option name="MAIN_CLASS_NAME" value="lambda.study.test.MyComparatorTest" />
       <option name="METHOD_NAME" value="testGroupPersonsByAge" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="MyComparatorTest.testSortPersonsByAscendingAgeThenAscendingName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="lambda.study.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Java8Study" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="lambda.study.test" />
-      <option name="MAIN_CLASS_NAME" value="lambda.study.test.MyComparatorTest" />
-      <option name="METHOD_NAME" value="testSortPersonsByAscendingAgeThenAscendingName" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="MyComparatorTest.testSortPersonsInAscendingNameOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="lambda.study.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Java8Study" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="lambda.study.test" />
-      <option name="MAIN_CLASS_NAME" value="lambda.study.test.MyComparatorTest" />
-      <option name="METHOD_NAME" value="testSortPersonsInAscendingNameOrder" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -438,19 +469,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MyComparatorTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MyComparatorTest.testSortPersonsInAscendingNameOrder" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MyComparatorTest.testSortPersonsByAscendingAgeThenAscendingName" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MyComparatorTest.testGroupPersonsByAge" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MyComparatorTest.testGroupPersonNamesByAge" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MyComparatorTest.testGroupPersonsByAge" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MyComparatorTest.testGroupPersonNamesByAge" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AssetsTest.testGetTotalAssetBondValue" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AssetsTest.testGetTotalAssetStockValue" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AssetsTest.testGetTotalAssetValue" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MyComparatorTest.testGroupPersonNamesByAge" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MyComparatorTest.testGroupPersonsByAge" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MyComparatorTest.testSortPersonsByAscendingAgeThenAscendingName" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MyComparatorTest.testSortPersonsInAscendingNameOrder" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MyComparatorTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AssetsTest.testGetTotalAssetValue" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AssetsTest.testGetTotalAssetStockValue" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AssetsTest.testGetTotalAssetBondValue" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MyComparatorTest.testGroupPersonNamesByAge" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MyComparatorTest.testGroupPersonsByAge" />
       </list>
     </recent_temporary>
   </component>
@@ -468,7 +499,8 @@
       <option name="presentableId" value="Default" />
       <updated>1529968695408</updated>
       <workItem from="1529968698020" duration="23169000" />
-      <workItem from="1530681975154" duration="2223000" />
+      <workItem from="1530681975154" duration="2534000" />
+      <workItem from="1531194356130" duration="2107000" />
     </task>
     <task id="LOCAL-00001" summary="Created Java 8 Study Repository">
       <created>1530236369156</created>
@@ -477,18 +509,25 @@
       <option name="project" value="LOCAL" />
       <updated>1530236369157</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add some more practise about comparator">
+      <created>1530686063432</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530686063432</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ComparatorTest_testSortPersonsInDescendingAgeOrder - 2018.06.26 at 15h 28m 50s.xml">
-      <configuration name="ComparatorTest.testSortPersonsInDescendingAgeOrder" configurationId="JUnit" />
+    <history-entry file="AssetsTest_testGetTotalAssetBondValue - 2018.07.10 at 14h 18m 35s.xml">
+      <configuration name="AssetsTest.testGetTotalAssetBondValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyComparatorTest - 2018.06.26 at 15h 39m 49s.xml">
-      <configuration name="MyComparatorTest" configurationId="JUnit" />
+    <history-entry file="AssetsTest_testGetTotalAssetStockValue - 2018.07.10 at 14h 19m 31s.xml">
+      <configuration name="AssetsTest.testGetTotalAssetStockValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyComparatorTest_testGroupPersonNamesByAge - 2018.07.04 at 16h 30m 21s.xml">
-      <configuration name="MyComparatorTest.testGroupPersonNamesByAge" configurationId="JUnit" />
+    <history-entry file="AssetsTest_testGetTotalAssetValue - 2018.07.10 at 14h 20m 06s.xml">
+      <configuration name="AssetsTest.testGetTotalAssetValue" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MyComparatorTest_testGroupPersonNamesByAge - 2018.07.04 at 16h 33m 14s.xml">
       <configuration name="MyComparatorTest.testGroupPersonNamesByAge" configurationId="JUnit" />
@@ -513,10 +552,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25392000" />
+    <option name="totallyTimeSpent" value="27810000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1418" width="2560" height="1418" extended-state="6" />
+    <frame x="1" y="-1418" width="2560" height="1418" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -537,9 +576,9 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7196621" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21101573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21088165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -563,7 +602,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Created Java 8 Study Repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Java 8 Study Repository" />
+    <MESSAGE value="Add some more practise about comparator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add some more practise about comparator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -572,6 +612,28 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lambda/study/MyComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="70" column="42" lean-forward="false" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lambda/study/test/MyComparatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lambda/study/MyComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -667,7 +729,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/lambda/study/MyComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
-          <caret line="70" column="42" lean-forward="true" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+          <caret line="70" column="42" lean-forward="false" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -677,11 +739,64 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/lambda/study/test/MyComparatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="755">
-          <caret line="123" column="68" lean-forward="true" selection-start-line="123" selection-start-column="68" selection-end-line="123" selection-end-column="68" />
+          <caret line="123" column="68" lean-forward="false" selection-start-line="123" selection-start-column="68" selection-end-line="123" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#369#370#0" expanded="true" />
             <element signature="e#418#419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lambda/study/Asset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lambda/study/Assets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="239" column="23" lean-forward="false" selection-start-line="239" selection-start-column="23" selection-end-line="239" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lambda/study/test/AssetsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
